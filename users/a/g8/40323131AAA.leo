@@ -48,9 +48,7 @@
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
 </v>
-<v t="leo.20160502113340.1"><vh>@edit ag8_40323131_task1c.py</vh></v>
 <v t="leo.20160502113402.1"><vh>@edit ag8_40323131_task1.py</vh></v>
-<v t="leo.20160502113350.1"><vh>@edit ag8_40323131_task1b.py</vh></v>
 </v>
 <v t="leo.20160502110937.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20160502110937.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
@@ -88,8 +86,6 @@ g.es("admin pelican 近端執行完畢")
 if __name__ == "__main__":
     app.run()
 
-app.register_blueprint(users.a.g8.ag8_40323131_task1b.ag8_40323131b)
-app.register_blueprint(users.a.g8.ag8_40323131_task1c.ag8_40323131c)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -227,8 +223,6 @@ import init
 
 
 import users.a.g8.ag8_40323131_task1
-import users.a.g8.ag8_40323131_task1b
-import users.a.g8.ag8_40323131_task1c
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄

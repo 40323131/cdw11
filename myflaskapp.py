@@ -8,8 +8,6 @@ import init
 
 
 import users.a.g8.ag8_40323131_task1
-import users.a.g8.ag8_40323131_task1b
-import users.a.g8.ag8_40323131_task1c
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -380,6 +378,4 @@ def send_file(path):
 if __name__ == "__main__":
     app.run()
 
-app.register_blueprint(users.a.g8.ag8_40323131_task1b.ag8_40323131b)
-app.register_blueprint(users.a.g8.ag8_40323131_task1c.ag8_40323131c)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
