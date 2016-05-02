@@ -20,13 +20,13 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g100</vh>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g8</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40323131-20160502.md</vh></v>
 </v>
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -48,6 +48,9 @@
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
 </v>
+<v t="leo.20160502113340.1"><vh>@edit ag8_40323131_task1c.py</vh></v>
+<v t="leo.20160502113402.1"><vh>@edit ag8_40323131_task1.py</vh></v>
+<v t="leo.20160502113350.1"><vh>@edit ag8_40323131_task1b.py</vh></v>
 </v>
 <v t="leo.20160502110937.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20160502110937.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
